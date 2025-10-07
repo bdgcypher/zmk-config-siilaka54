@@ -6,8 +6,6 @@
 
 
 / {
-    macros {
-    };
 
     combos {
         compatible = "zmk,combos";
