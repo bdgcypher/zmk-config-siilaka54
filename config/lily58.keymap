@@ -44,7 +44,7 @@
         };
 
         gui_right {
-            bindings = <&kp LC(LEFT_GUI)>;
+            bindings = <&kp LEFT_GUI>;
             key-positions = <31 33>;
         };
     };
