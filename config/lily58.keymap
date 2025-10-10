@@ -78,10 +78,10 @@
             display-name = "Nav";
             bindings = <
 &trans  &trans    &trans          &trans          &trans           &trans                             &trans        &trans          &trans     &trans     &trans  &trans
-&to 0   &trans    &trans          &mmv MOVE_UP    &trans           &trans                             &trans        &trans          &mkp LCLK  &mkp RCLK  &trans  &trans
+&trans  &trans    &trans          &mmv MOVE_UP    &trans           &trans                             &trans        &trans          &mkp LCLK  &mkp RCLK  &trans  &trans
 &trans  &kp HOME  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END                            &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT  &trans  &trans
 &trans  &trans    &trans          &trans          &msc SCRL_LEFT   &msc SCRL_RIGHT  &trans    &trans  &msc SCRL_UP  &msc SCRL_DOWN  &trans     &trans     &trans  &trans
-                                  &tog 2          &mkp RCLK        &mkp LCLK        &trans    &trans  &trans        &to 0           &trans
+                                  &trans          &mkp RCLK        &mkp LCLK        &trans    &trans  &trans        &to 0           &trans
             >;
         };
 
@@ -103,7 +103,7 @@
 &trans  &trans  &trans         &trans         &kp LS(LA(F))  &trans                                    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans         &trans          &trans           &trans
 &trans  &trans  &kp LG(LS(S))  &trans         &kp LS(LC(R))  &kp LA(LS(UP_ARROW))                      &kp C_AC_BACK         &kp C_AC_FORWARD      &kp K_MUTE     &kp C_VOL_DN    &kp C_VOLUME_UP  &trans
 &trans  &trans  &trans         &kp LS(LG(C))  &kp LG(V)      &kp LS(LA(DOWN_ARROW))  &trans    &trans  &kp C_PREVIOUS        &kp C_NEXT            &kp LG(COMMA)  &kp LG(PERIOD)  &trans           &trans
-                               &trans         &trans         &trans                  &trans    &trans  &kp C_PLAY_PAUSE      &trans                &trans
+                               &trans         &trans         &trans                  &trans    &trans  &kp C_PLAY_PAUSE      &to 2                 &trans
             >;
         };
 
